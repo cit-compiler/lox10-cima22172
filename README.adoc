@@ -173,6 +173,14 @@ java com.craftinginterpreters.lox.Lox <プログラム>
 [source,console]
 ----
 ここに、Loxを実行したときのコマンドライン、その動作結果をテキストで貼り付ける。
+masak@MASAKAZU MSYS /c/Users/masak/interpret/craftinginterpreters/java/lox01-cima22172/codes
+$ java com.craftinginterpreters.lox.Lox
+> 5-3-1
+(- (- 5.0 3.0) 1.0)
+> 9+1
+(+ 9.0 1.0)
+>
+
 ----
 
 作成できたら、一度「lox01」をコミットしなさい。
